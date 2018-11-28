@@ -145,7 +145,7 @@ console.log('Magic happens on port ' + port);
 // =============================================================================
 
 var mongoose   = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/map'); // connect to our database
+mongoose.connect('mongodb://ds135399.mlab.com:35399/map'); // connect to our database
 
 mongoose.connection.on('connected', function () {
     console.log('Mongoose connected to ' );
